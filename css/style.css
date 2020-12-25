@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,700;1,400&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', 'sans-serif';
+}
+
+.navbar {
+    display:flex;
+    background-color: #01c5f7;
+    padding: 10px 50px;
+    justify-content: space-between;
+}
+
+.titulo {
+    font-size: 30px;
+    text-decoration: none;
+    color: white;
+}
+
+.botaocarrinho {
+    border-bottom: none;
+    border-radius: 10px;
+    background-color: white;
+    border: solid 1px white;
+    padding: 5px 20px;
+    color: #01c5f7;
+    font-size: 16px;
+}
+
+.card {
+    border: solid 1px #adadb3;
+    border-radius: 15px;
+    margin: 20px 50px;
+    padding: 10px;
+}
+
+.imagecard {
+    align-items: center;
+}
+
+.imagem {
+    margin: 10px 60px;
+    width: 50%;
+    height: 50%;
+}
+
+.precocampo {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 20px 5px 20px;
+}
+
+.preco {
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.detalhes {
+    border: solid 1px #adadb3;
+    border-radius: 5px;
+    background-color: white;
+    color: #01c5f7;
+    font-size: 16px;
+    padding: 5px 10px; 
+}
+
+.nomedoproduto {
+    margin-left: 20px;
+}
+
+@media screen and (max-width: 480px) {
+    .botaocarrinho {
+        padding: 5px 10px; 
+    }
+
+    .titulo {
+        font-size: 26px;
+    }
+}
